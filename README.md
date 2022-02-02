@@ -11,3 +11,6 @@ Pasta do curso de lógica da ALURA para a formação DEVOPS
 	-> Usando o document.write() -> para imprimir dados na página HTML
 		-> document.write("A minha idade é 18"); 
 		-> uso de tags HTML no script para impressão no documento -> <br><h1>
+
+## Aula 3 - Torne-se um programador dinâmico com variáveis
+	-> A começar
