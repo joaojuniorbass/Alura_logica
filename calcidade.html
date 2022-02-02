@@ -1,0 +1,46 @@
+<meta charset="UTF-8">
+
+<script>
+    function pularLinha(){
+        document.write("<br>");
+    }
+
+    function mostrar(frase){
+        document.write(frase);
+        pularLinha();
+    }
+
+    var minhaIdade = 38;
+    var outraIdade = 42;
+    var diferenca = minhaIdade - outraIdade;
+
+    mostrar("Minha idade é de: " + minhaIdade + " anos");
+    mostrar("A idade do meu irmão é: " + outraIdade + " anos");
+    mostrar("A nossa diferença de idade é de: " + diferenca + " anos");
+
+    var anoAtual = 2022;
+    var geracoes = (anoAtual - 1500)/28;
+
+    pularLinha();
+    //mostrar("Se passaram " + anosPassados + " anos, desde 1500!!");
+    mostrar("A quantidade de gerações foi de " + Math.round(geracoes) + " desde 1500");
+
+</script>
+
+<script>
+    function pularLinha(){
+        document.write("<br><hr><br>");
+    }
+
+    function mostrar(info){
+        document.write("<big>" + info+ "</big>");
+        pularLinha();
+    }
+
+    var ano = 2021;
+
+    mostrar("Me chamao João e tenho: " + (ano - 1983) + " anos de idade.");
+    mostrar("Me chamao Claudio e tenho: " + (ano - 1979) + " anos de idade.");
+    mostrar("Me chamao Joyce e tenho: " + (ano - 1990) + " anos de idade.");
+
+</script>

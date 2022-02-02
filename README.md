@@ -14,3 +14,9 @@ Pasta do curso de lógica da ALURA para a formação DEVOPS
 
 ## Aula 3 - Torne-se um programador dinâmico com variáveis
 	-> A começar
+
+## Aula 4 - Criação de funções e variáveis
+	-> var é usado para criar uma variável
+		-> var nome = "João Carlos";
+	-> function é usado para criação de fuções
+		-> lembrar de usar parenteses e chaves no uso de funções com identeção.
