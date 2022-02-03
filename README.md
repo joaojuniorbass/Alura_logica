@@ -20,3 +20,7 @@ Pasta do curso de lógica da ALURA para a formação DEVOPS
 		-> var nome = "João Carlos";
 	-> function é usado para criação de fuções
 		-> lembrar de usar parenteses e chaves no uso de funções com identeção.
+
+## Aula  - Consolidaçao de funções e entraa e dados
+	-> Utilizando o RETURN dentro das funçoes para retornar valores
+	-> Utilizando o metodo PROMPT para entrada dde dados do usuáro: Ex var idade = prompt("Digite sua idade: ");

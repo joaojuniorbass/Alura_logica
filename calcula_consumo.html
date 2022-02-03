@@ -13,3 +13,53 @@
     document.write("<br><br>O consumo com alcool é de :" + consumoAlcool + "Kilometros rodados por litro de alcool");
 
 </script>
+
+
+<script>
+    //Calculo do IMC parte 2:
+    function pulaLinha(){
+        document.write("<br><br>");
+    }
+    function mostrar(valor){
+        document.write(valor);
+        pulaLinha();
+    }
+    function calculaImcs(altura, peso){
+        imc = peso / (altura * altura);
+        return imc;
+    }
+    var flavioImc = calculaImcs(1.78, 85);
+    var gustavoImc = calculaImcs(1.71, 66)
+
+    pulaLinha();
+    mostrar(gustavoImc);
+    mostrar(flavioImc);
+
+
+</script>
+
+<script>
+    function pular(){
+        documment.write("<br><br>");
+    }
+    function mostrar(valor){
+        document.write(valor);
+        pular();
+    }
+
+    function calculaImc(peso, altura){
+        imc = peso / (altura * altura);
+        return imc;
+    }
+
+    var nome = prompt("Digite seu nome: ");
+    var peso = prompt(nome + " digite o seu peso: ");
+    var altura = prompt(nome + " digite sua altura agora: ");
+    var imc = calculaImcs(peso, altura);
+
+    document.write(nome + " como seu peso e " + peso + " e sua altura, " + altura + " seu IMC é " + imc);
+</script>
+
+
+
+
