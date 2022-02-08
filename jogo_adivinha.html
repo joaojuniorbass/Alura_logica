@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+
+<script>
+    function pularLinha(){
+        document.write("<br>");
+    }
+
+    function mostrar(info){
+        document.write(info);
+        pularLinha();
+    }
+
+    function perguntar(info){
+        valor = prompt(info);
+        pularLinha();
+        return valor;
+    }
+
+    function aleatorio(num){
+        numAleatorio = Math.round(Math.random() * num);
+        return numAleatorio;
+    }
+
+    var numeroPensado = aleatorio(parseInt(perguntar()));
+    console.log(numeroPensado);
+
+    var numeroUsuario = parseInt(perguntar("Qual o número: "));
+    mostrar(numeroUsuario);
+
+    if(numeroUsuario == numeroPensado){
+        mostrar("Você acertou o resultado");
+    }else{
+        if(numeroPensado > numeroUsuario){
+            mostrar("Seu número foi menor");
+        }else{
+            mostrar("Seu número foi maior");
+        }
+    }
+
+</script>

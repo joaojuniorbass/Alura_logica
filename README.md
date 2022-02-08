@@ -24,3 +24,11 @@ Pasta do curso de lógica da ALURA para a formação DEVOPS
 ## Aula 5 - Consolidaçao de funções e entraa e dados
 	-> Utilizando o RETURN dentro das funçoes para retornar valores
 	-> Utilizando o metodo PROMPT para entrada dde dados do usuáro: Ex var idade = prompt("Digite sua idade: ");
+
+## Aula 6 - Conversão de variáveis string para number / Trabalhando com condições / 
+	-> Usando o parseint(); -> para passar um dado númerico para inteiro
+	-> Usando condicionais if e else -> if(valor){}else{};
+	-> usando o comando CONSOLE.LOG() para exibir dados no console -> console.log(numero) -> exemplo para mostrar o número randômico do Math.random();
+	-> usando método Math.random() para selecionar um número randômico.
+	-> usando o comando prompt para perguntar e retornar um valor para uma variável: var valor = prompt("Digite sua idade: ");
+	-> finalização com jogo de número aleatório. 

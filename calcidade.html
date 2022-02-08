@@ -1,6 +1,7 @@
 <meta charset="UTF-8">
 
 <script>
+    /*
     function pularLinha(){
         document.write("<br>");
     }
@@ -24,10 +25,11 @@
     pularLinha();
     //mostrar("Se passaram " + anosPassados + " anos, desde 1500!!");
     mostrar("A quantidade de gerações foi de " + Math.round(geracoes) + " desde 1500");
-
+*/
 </script>
 
 <script>
+    /*
     function pularLinha(){
         document.write("<br><hr><br>");
     }
@@ -42,5 +44,116 @@
     mostrar("Me chamao João e tenho: " + (ano - 1983) + " anos de idade.");
     mostrar("Me chamao Claudio e tenho: " + (ano - 1979) + " anos de idade.");
     mostrar("Me chamao Joyce e tenho: " + (ano - 1990) + " anos de idade.");
+    */
+</script>
+
+<script>
+    /* Função para calcular o IMC:
+    function pularLinha(){
+        document.write("<br><hr><br>");
+    }
+
+    function mostrar(info){
+        document.write("<big>" + info+ "</big>");
+        pularLinha();
+    }
+
+    function calcImc(peso, altura){
+        imc = (peso / (altura * altura));
+        mostrar("O valor do IMC é de : <big>" + imc + "</big>.");
+        return imc;
+        pularLinha
+
+    }
+
+    var meuPeso = prompt("Digite seu peso: ");
+    var minhaAltura = prompt("Digite sua altura: ");
+    var meuIMC = calcImc(meuPeso, minhaAltura);
+    
+    mostrar("Meu peso: " + meuPeso);
+    mostrar("Minha Altura: " + minhaAltura);
+    mostrar("Seu IMC: " + meuIMC);
+
+    if(meuIMC < 18){
+        mostrar("Você esta com IMC baixo, precisa engoardar");
+    }
+    if(meuIMC >= 18.5 && meuIMC <= 35){
+        mostrar("Você esta dentro do bom IMC");
+    }
+    if(meuIMC > 35){
+        mostrar("Você está acima do seu peso")
+    }
+*/
+</script>
+
+<script>
+/*
+    function pularLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostrar(frase){
+        document.write(frase);
+        pularLinha();
+    }
+
+    var vitorias = parseInt(prompt("Digite o número de vitórias: "));
+    var empates = parseInt(prompt("Digite o número de empates: "));
+    var totalPontos = vitorias * 3 +  empates;
+    var pontosAntes = 28;
+
+    mostrar("O total de pontos é : " + totalPontos);
+    if(totalPontos > pontosAntes){
+        mostrar("Seu time teve mais pontos que no ano passado");
+    }
+    if(totalPontos == pontosAntes){
+        mostrar("Seu time teve o mesmo resultado do ano passado");
+    }
+    else(totalPontos < pontosAntes){
+        mostrar("Seu time esta pior qu eno ano passado");
+    }*/
+</script>
+
+<script>
+/*
+    function pularLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostrar(frase){
+        document.write(frase);
+        pularLinha();
+    }
+
+    var numeroPensado = Math.round(Math.random() * 10);
+    console.log(numeroPensado);111111111111111111111111111
+
+    var numeroDigitado = parseInt(prompt("Digite o seu número: "));
+    if(numeroDigitado == numeroPensado){
+        mostrar("Você certou")
+    }else{
+        mostrar("Você errou, " + numeroPensado);
+    }
+*/
+</script>
+
+<script>
+    function pularLinha(){
+        document.write("<br><br>");
+    }
+
+    function mostrar(info){
+        document.write("FUNÇÃO MOSTRAR: <br>" + info);
+        pularLinha();
+    }
+
+    var nome = "João Carlos Marins Junior";
+    mostrar(nome);
+
+    document.write("<br>" + nome);
+
+    var nome2 = "Pedro Augusto Ferreira";
+    mostrar(nome2);
+    document.write(nome2);
 
 </script>
