@@ -1,0 +1,23 @@
+<meta charset="utf-8">
+
+<input/>
+<button>COMPARE O SEGREDO</button>
+
+<script>
+
+    function verificar(){
+
+        if(input.value == segredo){
+            alert("Você ACERTOU");
+        }else{
+            alert("Você ERROU");
+        }
+    }
+    var segredo = 5;
+    var input = document.querySelector("input");
+
+    var botao = document.querySelector("button");
+    botao.onclick = verificar;
+
+        
+</script>

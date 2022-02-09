@@ -31,4 +31,12 @@ Pasta do curso de lógica da ALURA para a formação DEVOPS
 	-> usando o comando CONSOLE.LOG() para exibir dados no console -> console.log(numero) -> exemplo para mostrar o número randômico do Math.random();
 	-> usando método Math.random() para selecionar um número randômico.
 	-> usando o comando prompt para perguntar e retornar um valor para uma variável: var valor = prompt("Digite sua idade: ");
-	-> finalização com jogo de número aleatório. 
+	-> finalização com jogo de número aleatório
+
+## Aula 7 - 
+	-> Uso da tag <input/> para espaço de inserção de dados
+	-> Uso da tab <button></button> para criar um botão no doc HTML
+	-> Uso do document.querySelector() para pegar um dado do doc HTML.: var input = document.querySelector("input"); -> para pegar o dados do imput
+																		-> input.value -> é usado para trabalhar com o valor pego.
+																		-> inpub.onclick -> é usado para atribuir funções ao botão.
+      

@@ -10,6 +10,30 @@
         pularLinha();
     }
 
+    var num = Math.round(Math.random() * 10);
+    var tentativas = 1;
+
+    while(tentativas <= 3){
+
+        var resposta = parseInt(prompt("Digite seu número: "));
+        if(resposta == num){
+            alert("Você ACERTOU!!!");
+            break;
+        }else{
+            alert("Você ERROU!!!");
+        }
+        tentativas++;
+    }
+
+    for(valor = 1; valor <= 3; valor++){
+        
+        for(valor2 = 1; valor2 <= 10; valor2++){
+            document.write("*");
+        }
+        pularLinha();
+    }
+
+/*
     function perguntar(info){
         valor = prompt(info);
         pularLinha();
@@ -17,8 +41,7 @@
     }
 
     function aleatorio(num){
-        numAleatorio = Math.round(Math.random() * num);
-        return numAleatorio;
+        return Math.round(Math.random() * num);
     }
 
     var numeroPensado = aleatorio(parseInt(perguntar()));
@@ -36,5 +59,5 @@
             mostrar("Seu número foi maior");
         }
     }
-
+*/
 </script>
